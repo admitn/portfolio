@@ -1,0 +1,54 @@
+/*------------GENERAL---------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #252525;
+	font-family: 'Montserrat', sans-serif;
+}
+.bg_body{
+	background: #000;
+}
+.wrapper{
+	width: 1728px;
+	margin: 0 auto;
+	border-radius: 30px;
+	background: #fff;
+}
+.container{
+	max-width: 1440px;
+	padding: 0;
+}
+.my_btn{
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 100px;
+	color: #252525;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 25px;
+	padding: 12px 20px 13px 27px;
+
+}
+.my_btn::after{
+	background: url(../img/arrow-down.png) no-repeat center;
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    border: none;
+    vertical-align: 0;
+    margin-left: 15px;
+
+}
+.my_btn-orange{
+	background: #FFD600;
+	border-color: #FFD600;
+}
+/*----------HEADER------------*/
+.header_menu{
+	display: flex;
+	padding-top: 30px;
+	align-items: center;
+}
+.header_menu .logo{
+	margin-right: 36px;
+}
