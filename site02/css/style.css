@@ -29,26 +29,184 @@
 	padding: 12px 20px 13px 27px;
 
 }
-.my_btn::after{
+.my_btn::after ,.my_nav-link::after{
 	background: url(../img/arrow-down.png) no-repeat center;
     width: 8px;
     height: 8px;
     margin: 0;
     border: none;
     vertical-align: 0;
+}
+.my_btn::after{
     margin-left: 15px;
-
+}
+.my_nav-link::after{
+	margin-left: 10px;
 }
 .my_btn-orange{
 	background: #FFD600;
 	border-color: #FFD600;
 }
+.swoosh{
+	background: url('../img/swoosh.png') no-repeat;
+	width: 228px;
+	height: 41px;
+	margin: 0 auto;
+}
 /*----------HEADER------------*/
 .header_menu{
 	display: flex;
-	padding-top: 30px;
+	padding-top: 31px;
+	padding-bottom: 32px;
 	align-items: center;
 }
 .header_menu .logo{
 	margin-right: 36px;
+}
+.header_menu .nav{
+	margin-left: 50px;
+	gap: 55px;
+}
+.header_menu .nav .my_nav-link{
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #252525;
+}
+
+.header_menu .my_nav-right{
+	margin-left: auto;
+	gap: 20px;
+}
+.header_menu .my_nav-right .nav-item{
+	border-radius: 100px;
+	background: #F5F5F5;
+}
+.header_menu .my_nav-right .my_nav-link{
+	color: #252525;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 25px;
+	padding: 12px 32px 13px 32px;
+}
+.header_menu .my_nav-right .my_nav-link_love{
+	padding: 15px 14px 13px 14px;
+}
+
+.offer{
+	padding-top: 123px;
+	padding-bottom: 62px;
+	background: url('../img/man-sits-end-trolltunga-before-mountains 1.png') no-repeat center;
+	border-radius: 20px;
+}
+.offer-title{
+	width: 549px;
+	margin: 0 auto;
+}
+.offer-title p{
+	color: #252525;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.offer-search{
+	border-radius: 100px;
+	background: #FFF;
+	box-shadow: 0px 42px 80px 0px rgba(0, 0, 0, 0.25);
+	max-width: 779px;
+	margin: 0 auto;
+	margin-top: 48px;
+	padding: 9px 11px 10px 24px;
+}
+.ellips{
+	border: 1px solid #DBDBDB;
+    border-radius: 100%;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pin-img{
+	background: url('../img/pin.png') no-repeat center;
+	width: 18px;
+	height: 18px;
+}
+.pin-title{
+	margin-left: 15px;
+}
+.pin, .calendar{
+	display: flex;
+    align-items: center;
+}
+.pin p, .calendar p{
+	color: #7B7B7B;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-left: 15px;
+	margin-bottom: 0;	
+}
+.calendar-img{
+	background: url('../img/calendar.png') no-repeat center;
+	width: 18px;
+	height: 18px;
+}
+.line{
+	width: 1px;
+	height: 37px;
+	background: #EBEBEB;
+	margin: 0 28px;
+}
+.offer-search .my_btn{
+	margin-left: auto;
+}
+.often{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 127px;
+}
+.often p{
+	margin: 0;
+	color: #252525;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 25px;
+	margin-right: 3px;
+}
+.btn-often{
+	border-radius: 30px;
+	background: #a8b1b4;
+	border: none;
+}
+.btn-often span{
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+/*---------------Font------------*/
+.font-h1{
+	color: #252525;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 52px;
 }
